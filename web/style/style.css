@@ -1,0 +1,46 @@
+body {
+    align-content: center;
+    width: 700px;
+    margin: auto;
+    background-color: #CCCCFF;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
+
+textarea {
+    width: 90%;
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+}
+
+.column-6 {
+    float: left;
+    width: 50%;
+}
+
+.column-4 {
+    float: left;
+    width: 33.3333%;
+}
+
+.column-6:after, column-4:after {
+    clear: both;
+}
